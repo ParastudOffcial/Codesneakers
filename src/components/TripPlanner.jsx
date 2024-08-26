@@ -109,7 +109,7 @@ const TripPlanner = () => {
         Top Bus Routes
       </h3>
       <div className="mt-2">
-        <Marquee velocity={25} minScale={0.7} resetAfterTries={200}>
+        <Marquee velocity={180} minScale={0.7} resetAfterTries={200}>
           {popularRoutes.map((route, index) => (
             <div
               key={index}
